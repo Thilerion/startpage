@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>New Tab</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style-new.css">
+	<link rel="stylesheet" href="weather-icons-css/weather-icons.min.css">
+</head>
+
+<body>
+	<div class="background"></div>
+	<div class="vignette-overlay"></div>
+	
+	<div class="flex-wrapper">
+		<div class="flex-c">
+			<div class="weather-widget">
+				<!--
+				<p><i class="wi wi-wu-cloudy"></i></p>
+				<p>Omschrijving: Geheel bewolkt</p>
+				<p>Temperatuur: 7.3 </p>
+				<p>Voelt als: 7 °C</p>
+				-->
+				<div class="top">
+					<p id="weatherTemp" class="weather-temp"></p>
+				</div>
+				<p id="weatherDescription" class="weather-item"></p>
+				<p id="weatherFeelsLike" class="weather-item"></p>
+				<p id="weatherLocation" class="weather-item"></p>
+			</div>
+		</div>
+		<div class="flex-c center">
+			<p class="display-time" id="timeString"></p>
+			<p class="welcome-text"><span id="welcomeString"></span>, <span id="nameString"></span>.</p>
+			<form method="get" action="http://www.google.com/search" target="_blank" class="search-form">
+				<input type="search" name="q" size="25" placeholder="Google Search" autocomplete="off">
+				<button type="submit"><i class="material-icons">search</i></button>
+				<button type="button" class="search-settings"><i class="material-icons">arrow_drop_down</i></button>
+			</form>
+		</div>
+		<div class="flex-c"></div>
+	</div>
+
+
+	<script src="prefs.js"></script>
+	<script src="date.js"></script>
+	<script src="welcome-text.js"></script>
+	<script src="time-view.js"></script>
+	<script src="weather.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Startpage</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="background"></div>
+	<div class="vignette-overlay"></div>
+
+	<div class="center">
+		<p class="display-time" id="timeString"></p>
+		<p class="welcome-text"><span id="welcomeString"></span>, <span id="nameString"></span>.</p>
+		<form method="get" action="http://www.google.com/search" target="_blank" class="search-form">
+			<input type="search" name="q" size="25" placeholder="Google Search">
+			<button type="submit"><i class="material-icons">search</i></button>
+		</form>
+	</div>
+
+
+
+
+	<script src="prefs.js"></script>
+	<script src="date.js"></script>
+	<script src="welcome-text.js"></script>
+	<script src="time-view.js"></script>
+	<script src="script.js"></script>
+
+</body>
+
+</html>
+-->

@@ -1,0 +1,890 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "geolookup": 1
+  ,
+  "conditions": 1
+  ,
+  "forecast": 1
+  }
+	}
+		,	"location": {
+		"type":"INTLCITY",
+		"country":"NL",
+		"country_iso3166":"NL",
+		"country_name":"Nederland",
+		"state":"ZH",
+		"city":"Rotterdam",
+		"tz_short":"CET",
+		"tz_long":"Europe/Amsterdam",
+		"lat":"51.81000137",
+		"lon":"4.67000008",
+		"zip":"00000",
+		"magic":"1",
+		"wmo":"06344",
+		"l":"/q/zmw:00000.1.06344",
+		"requesturl":"global/stations/06344.html",
+		"wuiurl":"https://www.wunderground.com/global/stations/06344.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Rotterdam Airport Zestienhoven", "state":"", "country":"Netherlands", "icao":"EHRD", "lat":"51.95000076", "lon":"4.44999981" }
+		,{ "city":"Rotterdam", "state":"", "country":"NL", "icao":"EHRD", "lat":"51.95000076", "lon":"4.44999981" }
+		,{ "city":"Gilze-Rijen", "state":"", "country":"NL", "icao":"EHGR", "lat":"51.56999969", "lon":"4.92999983" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Cornelis van Beverenstraat",
+		"city":"Dordrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IDORDREC19",
+		"lat":51.809769,
+		"lon":4.669461,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Nieuwstraat 105 - Dordrecht - Nederland",
+		"city":"Dordrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IDORDREC78",
+		"lat":51.814209,
+		"lon":4.670351,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Kasperspad",
+		"city":"Zwijndrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IZWIJNDR22",
+		"lat":51.812973,
+		"lon":4.675188,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Spuiboulevard",
+		"city":"Zwijndrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IZWIJNDR14",
+		"lat":51.811855,
+		"lon":4.663535,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Transvaalbuurt",
+		"city":"Dordrecht",
+		"state":"ZUID-HOLLAND",
+		"country":"NL",
+		"id":"IZUIDHOL301",
+		"lat":51.808311,
+		"lon":4.677050,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Sint Jorisweg",
+		"city":"Dordrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IDORDREC44",
+		"lat":51.813267,
+		"lon":4.676253,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Nicolaasstraat",
+		"city":"Zwijndrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IZWIJNDR24",
+		"lat":51.814106,
+		"lon":4.675112,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Krommedijk",
+		"city":"Dordrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IDORDREC64",
+		"lat":51.807701,
+		"lon":4.678878,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Prins Bernhardstraat",
+		"city":"Dordrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IDORDREC13",
+		"lat":51.801392,
+		"lon":4.666121,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Vijverweg",
+		"city":"Dordrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IDORDREC46",
+		"lat":51.813297,
+		"lon":4.690093,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Sweelinckstraat",
+		"city":"Dordrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IDORDREC40",
+		"lat":51.802628,
+		"lon":4.652629,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Jollensteiger",
+		"city":"Zwijndrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IZWIJNDR12",
+		"lat":51.814270,
+		"lon":4.649360,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Zuidhovenlaantje",
+		"city":"Dordrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IDORDREC29",
+		"lat":51.795658,
+		"lon":4.671030,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"",
+		"city":"Zwijndrecht",
+		"state":"ZUID-HOLLAND",
+		"country":"NL",
+		"id":"IZUIDHOL97",
+		"lat":51.817337,
+		"lon":4.648509,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Veerdam",
+		"city":"Dordrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IDORDREC56",
+		"lat":51.823864,
+		"lon":4.683310,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Zwijndrecht",
+		"city":"Zwijndrecht",
+		"state":"ZH",
+		"country":"NL",
+		"id":"IZHZWIJN4",
+		"lat":51.823875,
+		"lon":4.649835,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Zwijndrecht (NL)",
+		"city":"Zwijndrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IZWIJNDR36",
+		"lat":51.820690,
+		"lon":4.643462,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Berkenhof",
+		"city":"Dordrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IDORDREC21",
+		"lat":51.800701,
+		"lon":4.698200,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Lijsterstraat",
+		"city":"Dordrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IDORDREC42",
+		"lat":51.827126,
+		"lon":4.687378,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Burgemeester Brouwerstraat",
+		"city":"Zwijndrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IZWIJNDR6",
+		"lat":51.821194,
+		"lon":4.641674,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Van Deysselstraat",
+		"city":"Zwijndrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IZWIJNDR3",
+		"lat":51.808956,
+		"lon":4.635553,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"marcmaniak_home",
+		"city":"Zwijndrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IZWIJNDR40",
+		"lat":51.817886,
+		"lon":4.637750,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Dordrecht",
+		"city":"Dubbeldam",
+		"state":"ZH",
+		"country":"NL",
+		"id":"IZHDUBBE4",
+		"lat":51.796574,
+		"lon":4.698348,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Eddingtonweg",
+		"city":"Dordrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IDORDREC4",
+		"lat":51.789253,
+		"lon":4.683178,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Papendrecht",
+		"city":"Westeind",
+		"state":"ZH",
+		"country":"NL",
+		"id":"IZHWESTE2",
+		"lat":51.832481,
+		"lon":4.674205,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Karel Doormanlaan",
+		"city":"Dordrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IDORDREC5",
+		"lat":51.825356,
+		"lon":4.697255,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Zwijndrecht",
+		"city":"Zwijndrecht",
+		"state":"ZH",
+		"country":"NL",
+		"id":"IZHZWIJN2",
+		"lat":51.824657,
+		"lon":4.641290,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Oudelandshoek Dordrecht",
+		"city":"Dordrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IDORDREC74",
+		"lat":51.806984,
+		"lon":4.706947,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Dordrecht",
+		"city":"Dubbeldam",
+		"state":"ZH",
+		"country":"NL",
+		"id":"IZHDUBBE3",
+		"lat":51.796223,
+		"lon":4.700228,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Iroko",
+		"city":"Dordrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IDORDREC3",
+		"lat":51.810879,
+		"lon":4.707580,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Zwijndrecht",
+		"city":"Hendrik-Ido-Ambacht",
+		"state":"ZH",
+		"country":"NL",
+		"id":"IZHHENDR4",
+		"lat":51.832722,
+		"lon":4.655387,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Zonnebloemstraat",
+		"city":"Papendrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IPAPENDR10",
+		"lat":51.830673,
+		"lon":4.693749,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Govert Flinckstraat",
+		"city":"Papendrecht",
+		"state":"",
+		"country":"NL",
+		"id":"IPAPENDR25",
+		"lat":51.834560,
+		"lon":4.682909,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Hendrik-Ido-Ambacht",
+		"city":"Zwijndrecht",
+		"state":"ZH",
+		"country":"NL",
+		"id":"IZHZWIJN3",
+		"lat":51.826725,
+		"lon":4.637350,
+		"distance_km":2,
+		"distance_mi":1
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Rotterdam, Nederland",
+		"city":"Rotterdam",
+		"state":"ZH",
+		"state_name":"Nederland",
+		"country":"NL",
+		"country_iso3166":"NL",
+		"zip":"00000",
+		"magic":"1",
+		"wmo":"06344",
+		"latitude":"51.81000137",
+		"longitude":"4.67000008",
+		"elevation":"0.9"
+		},
+		"observation_location": {
+		"full":"Nieuwstraat 105 - Dordrecht - Nederland, Dordrecht, ",
+		"city":"Nieuwstraat 105 - Dordrecht - Nederland, Dordrecht",
+		"state":"",
+		"country":"NL",
+		"country_iso3166":"NL",
+		"latitude":"51.814209",
+		"longitude":"4.670351",
+		"elevation":"16 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"IDORDREC78",
+		"observation_time":"Last Updated on januari 30, 2:47 PM CET",
+		"observation_time_rfc822":"Tue, 30 Jan 2018 14:47:49 +0100",
+		"observation_epoch":"1517320069",
+		"local_time_rfc822":"Tue, 30 Jan 2018 14:47:55 +0100",
+		"local_epoch":"1517320075",
+		"local_tz_short":"CET",
+		"local_tz_long":"Europe/Amsterdam",
+		"local_tz_offset":"+0100",
+		"weather":"Geheel bewolkt",
+		"temperature_string":"45.1 F (7.3 C)",
+		"temp_f":45.1,
+		"temp_c":7.3,
+		"relative_humidity":"89%",
+		"wind_string":"From the NO at 1.3 MPH Gusting to 2.2 MPH",
+		"wind_dir":"NO",
+		"wind_degrees":46,
+		"wind_mph":1.3,
+		"wind_gust_mph":"2.2",
+		"wind_kph":2.1,
+		"wind_gust_kph":"3.5",
+		"pressure_mb":"1027",
+		"pressure_in":"30.33",
+		"pressure_trend":"0",
+		"dewpoint_string":"42 F (6 C)",
+		"dewpoint_f":42,
+		"dewpoint_c":6,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"45 F (7 C)",
+		"windchill_f":"45",
+		"windchill_c":"7",
+		"feelslike_string":"45 F (7 C)",
+		"feelslike_f":"45",
+		"feelslike_c":"7",
+		"visibility_mi":"6.2",
+		"visibility_km":"10.0",
+		"solarradiation":"52",
+		"UV":"0.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/06344.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IDORDREC78",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=51.814209,4.670351",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"1:57 PM CET",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"dinsdag",
+		"fcttext":"Bewolkt. Maximaal 45F. Wind uit het ZZW van 5 tot 10 mpu.",
+		"fcttext_metric":"Bewolkt. Maximaal 8C. Wind uit het ZZW van 10 tot 15 km/u.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"dinsdagnacht",
+		"fcttext":"Zich laat ontwikkelende lichte regen. Minimaal 37F. ZZW wind van 5 tot 10 mpu, toenemend naar 15 tot 25 mpu. Kans op regen 60%.",
+		"fcttext_metric":"Zich laat ontwikkelende lichte regen. Minimaal 3C. Z wind van 10 tot 15 km/u, toenemend naar 25 tot 40 km/u. Kans op regen 60%.",
+		"pop":"60"
+		}
+		,
+		{
+		"period":2,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"woensdag",
+		"fcttext":"Regen en wind. Maximaal 50F. Wind uit het WZW van 20 tot 30 mpu. Kans op regen 100%. Regenval ongeveer 0.25 inch. Windstoten kunnen af en toe meer dan 40 mpu bereiken.",
+		"fcttext_metric":"Regen en wind. Maximaal 10C. Wind uit het WZW van 25 tot 40 km/u. Kans op regen 100%. Regenval ongeveer 6 mm. Windstoten kunnen af en toe meer dan 65 km/u bereiken.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"woensdagnacht",
+		"fcttext":"Gedeeltelijk bewolkt. Minimaal 37F. Wind uit het WZW van 10 tot 20 mpu.",
+		"fcttext_metric":"Regenbuien laat in de avond. Minimaal 3C. Wind uit het WZW van 15 tot 30 km/u. Kans op regen 30%.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":4,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"donderdag",
+		"fcttext":"Regenbuien. Maximaal 43F. Wind uit het WZW van 10 tot 20 mpu. Kans op regen 60%. Windstoten kunnen af en toe meer dan 40 mpu bereiken.",
+		"fcttext_metric":"Regenbuien. Maximaal 6C. Wind uit het WZW van 15 tot 30 km/u. Kans op regen 60%. Windstoten kunnen af en toe meer dan 65 km/u bereiken.",
+		"pop":"60"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"donderdagnacht",
+		"fcttext":"Regenbuien. Minimaal 38F. Wind uit het WNW van 10 tot 20 mpu. Kans op regen 50%.",
+		"fcttext_metric":"Regenbuien. Minimaal 4C. Wind uit het WNW van 15 tot 30 km/u. Kans op regen 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"vrijdag",
+		"fcttext":"Lichte regen in de ochtend. Maximaal 44F. Wind uit het NNW van 10 tot 20 mpu. Kans op regen 40%.",
+		"fcttext_metric":"Lichte regen in de ochtend. Maximaal 7C. Wind uit het NNW van 15 tot 30 km/u. Kans op regen 40%.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+		"title":"vrijdagnacht",
+		"fcttext":"Overwegend bewolkt. Minimaal 35F. Wind uit het WZW van 5 tot 10 mpu.",
+		"fcttext_metric":"Overwegend bewolkt. Minimaal 2C. Wind uit het WZW van 10 tot 15 km/u.",
+		"pop":"20"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1517335200",
+	"pretty":"7:00 PM CET op 30 januari 2018",
+	"day":30,
+	"month":1,
+	"year":2018,
+	"yday":29,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"januari",
+	"monthname_short":"jan",
+	"weekday_short":"di",
+	"weekday":"dinsdag",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Amsterdam"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"46",
+		"celsius":"8"
+		},
+		"low": {
+		"fahrenheit":"37",
+		"celsius":"3"
+		},
+		"conditions":"Geheel bewolkt",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.07,
+		"mm": 2
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.07,
+		"mm": 2
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "ZZW",
+		"degrees": 206
+		},
+		"avewind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "ZZW",
+		"degrees": 206
+		},
+		"avehumidity": 78,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1517421600",
+	"pretty":"7:00 PM CET op 31 januari 2018",
+	"day":31,
+	"month":1,
+	"year":2018,
+	"yday":30,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"januari",
+	"monthname_short":"jan",
+	"weekday_short":"wo",
+	"weekday":"woensdag",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Amsterdam"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"50",
+		"celsius":"10"
+		},
+		"low": {
+		"fahrenheit":"37",
+		"celsius":"3"
+		},
+		"conditions":"Regen",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 0.28,
+		"mm": 7
+		},
+		"qpf_day": {
+		"in": 0.28,
+		"mm": 7
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 30,
+		"kph": 48,
+		"dir": "WZW",
+		"degrees": 246
+		},
+		"avewind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "WZW",
+		"degrees": 246
+		},
+		"avehumidity": 84,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1517508000",
+	"pretty":"7:00 PM CET op 01 februari 2018",
+	"day":1,
+	"month":2,
+	"year":2018,
+	"yday":31,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"februari",
+	"monthname_short":"feb",
+	"weekday_short":"do",
+	"weekday":"donderdag",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Amsterdam"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"43",
+		"celsius":"6"
+		},
+		"low": {
+		"fahrenheit":"38",
+		"celsius":"3"
+		},
+		"conditions":"Kans op regen",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":60,
+		"qpf_allday": {
+		"in": 0.18,
+		"mm": 5
+		},
+		"qpf_day": {
+		"in": 0.09,
+		"mm": 2
+		},
+		"qpf_night": {
+		"in": 0.10,
+		"mm": 3
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "WZW",
+		"degrees": 253
+		},
+		"avewind": {
+		"mph": 16,
+		"kph": 26,
+		"dir": "WZW",
+		"degrees": 253
+		},
+		"avehumidity": 78,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1517594400",
+	"pretty":"7:00 PM CET op 02 februari 2018",
+	"day":2,
+	"month":2,
+	"year":2018,
+	"yday":32,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"februari",
+	"monthname_short":"feb",
+	"weekday_short":"vrij",
+	"weekday":"vrijdag",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Amsterdam"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"44",
+		"celsius":"7"
+		},
+		"low": {
+		"fahrenheit":"35",
+		"celsius":"2"
+		},
+		"conditions":"Kans op regen",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":40,
+		"qpf_allday": {
+		"in": 0.02,
+		"mm": 1
+		},
+		"qpf_day": {
+		"in": 0.02,
+		"mm": 1
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "NNW",
+		"degrees": 327
+		},
+		"avewind": {
+		"mph": 14,
+		"kph": 23,
+		"dir": "NNW",
+		"degrees": 327
+		},
+		"avehumidity": 80,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}
