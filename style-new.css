@@ -46,6 +46,7 @@ body {
 .background {
 	background: url("https://source.unsplash.com/collection/220388/1920x1080") no-repeat center center fixed;
 	background: url("https://source.unsplash.com/collection/477172/1920x1080") no-repeat center center fixed;
+	background: url("https://source.unsplash.com/collection/1244/1920x1080") no-repeat center center fixed;
 	background-size: cover;
 	filter: brightness(85%) contrast(85%);
 	z-index: -10;
